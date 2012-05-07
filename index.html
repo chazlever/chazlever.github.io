@@ -1,0 +1,129 @@
+<html>
+   <head>
+      <title>Chaz Lever</title>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <script type="text/javascript" src="custom.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:700|Droid+Serif:400,400italic' rel='stylesheet' type='text/css' />
+      <link href="custom.css" rel="stylesheet" type="text/css" media="screen, projection" />
+   </head>
+   <body>
+      <h1><a href="." title="Chaz Lever">Chaz Lever</a></h1>
+
+      <div class="container">
+
+      <div class="category-box">
+         <h2><span>About Me</span></h2>
+         <p>I am a PhD student at <a href="http://www.gatech.edu" title="Georgia Institute of Technology">Georgia Institute of Technology</a> performing research in the areas of network and computer security under the advisement of <a href="http://www.cc.gatech.edu/~traynor" title="Patrick Traynor">Patrick Traynor</a>. I currently have degrees from <a href="http://www.wfu.edu" title="Wake Forest University">Wake Forest University</a> (M.S., Computer Science, &#8217;11) and <a href="http://www.duke.edu" title="Duke University">Duke University</a> (B.S., Computer Science, &#8217;06).</p>
+         <p>From 2006-2009, I lived and worked in Atlanta, GA as a software engineer doing development in the financial services and distributed assets industries. My first employer during that time was a smaller company, <a href="http://www.ventyx.com/news/2011/02-01-11-obvient-closure.asp" title="Obvient Strategies">Obvient Strategies</a>, focused on developing business intelligence and data warehousing solutions. After a year, I left Obvient for a position at <a href="http://www.globalpaymentsinc.com" title="Global Payments, Inc">Global Payments, Inc</a> (recently listed by <a href="http://www.forbes.com" title="Forbes">Forbes</a> as one of <a href="http://www.forbes.com/lists/2009/88/bigcompanies08_Global-Payments_K5HF.html" title="Forbes - The 400 Best Big Companies">The 400 Best Big Companies</a>) where I spent the next two years working on a web-based transactions processing platform.</p>
+      </div>
+
+      <div id="contact" class="category-box">
+         <h2><span>Contact</span></h2>
+         <ul>
+            <li id="campusmail">
+            <strong>Campus Mail</strong><br />
+            Georgia Institute of Technology<br />
+            Klaus Advanced Computing Bldg<br />
+            Room 3124<br />
+            266 Ferst Drive<br />
+            Atlanta, GA 30332-0765<br />
+            </li>
+            <li id="email">
+            <strong>E-mail</strong><br />
+            &lt;first&gt;&lt;last&gt; [at] gatech.edu
+            </li>
+         </ul>
+         <div class="clear"></div>
+      </div>
+
+
+      <div id="education" class="category-box">
+         <h2><span>Education</span></h2>
+         <ul>
+            <li>
+            <em>Georgia Institute of Technology</em><span class="grad-date"> (in progress)</span><br />
+            PhD, Computer Science
+            </li>
+            <li>
+            <em>Wake Forest University</em> <span class="grad-date">(2011)</span><br />
+            M.S., Computer Science
+            </li>
+            <li>
+            <em>Duke University</em> <span class="grad-date">(2006)</span><br />
+            B.S., Computer Science
+            </li>
+         </ul>
+      </div>
+
+      <div id="work" class="category-box">
+         <h2><span>Experience</span></h2>
+         <ul>
+            <li>
+            <strong>Damballa</strong> <span class="employ-date">(May 2012 - present)</span><br />
+            <em>Research Intern</em>
+             <p class="job-description">Performed research into characterizing the malicious threats seen in cellular data networks.</p>
+            </li>
+            <li>
+            <strong>Lawrence Livermore National Lab</strong> <span class="employ-date">(June 2011 - August 2011)</span><br />
+            <em>ISCR Scholar</em>
+             <p class="job-description">Performed research into exploiting graph structure for identity resolution and de-anonymization.</p>
+            </li>
+            <li>
+            <strong>Lawrence Livermore National Lab</strong> <span class="employ-date">(June 2010 - August 2010)</span><br />
+            <em>ISCR Scholar</em>
+             <p class="job-description">Performed research in the area of cyber security and helped to setup and deploy a network security testbed.</p>
+            </li>
+            <li>
+            <strong>Global Payments</strong> <span class="employ-date">(September 2007 - August 2009)</span><br />
+            <em>Software Engineer</em>
+             <p class="job-description">Development of virtual terminal web application and payment gateway for the company's transaction processing engine.</p>
+            </li>
+            <li>
+            <strong>Obvient Strategies</strong> <span class="employ-date">(September 2006 - September 2007)</span><br />
+            <em>Software Engineer</em>
+             <p class="job-description">Developed business intelligence and data warehousing solutions for the Distributed Asset Industry.</p>
+            </li>
+         </ul>
+      </div>
+
+      <div id="publications" class="category-box">
+         <h2><span>Publications</span></h2>
+         <ul>
+            <li>
+            <strong><a href="publications/motifs.pdf" title="Graph Mining of Motif Profiles for Computer Network Activity Inference">Graph Mining of Motif Profiles for Computer Network Activity Inference</a></strong><br />
+            William Turkett, Errin Fulp, Charles Lever, Edward Allan<br />
+            <em>In Proceedings of the Ninth Workshop of Mining and Learning with Graphs (MLG), 2011</em>
+            <div class="abstract">
+               <p>An important component of network resource management and
+               security enforcement is recognizing the applications active on a
+               network. Unfortunately payload encryption and the use of
+               non-standard ports render traditional application identification
+               methods marginally useful. Newer in-the-dark application discovery
+               methods can contend with these conditions, but still rely on packet
+               level information that may not be readily available to
+               administrators.</p>
+               <p>This paper describes the initial findings and future directions
+               of a technique that uses network motifs (e.g. overrepresented
+               interaction subgraphs) to identify network activity. Modeling the
+               flow-level network interactions as a graph, the proposed approach
+               identifies sets of frequently occurring subgraphs useful to infer
+               the applications. Initial results show this approach can achieve an
+               average accuracy of 85% in mapping motifs to applications. We argue
+               that performance can be improved by incorporating features into
+               motifs that provide information about vertices and edges while
+               preserving the ability for system administrators to gather such
+               feature information from flow-level traces. Specific issues that
+               arise in the collection of computer network interaction data and in
+               dealing with the scale of such data are also highlighted.</p>
+            </div>
+            </li>
+         </ul>
+      </div>
+   </div>
+   <div id="footer" class="container">
+      <em>Copyright &copy; 2012. All rights reserved.</em>
+   </div>
+
+   </body>
+</html>
+
