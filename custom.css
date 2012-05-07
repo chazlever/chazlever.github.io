@@ -66,6 +66,10 @@ h2 span {
    clear: both;
 }
 
+.hide {
+   display: none;
+}
+
 ul {
    list-style-type: none;
 }
@@ -74,6 +78,11 @@ ul li {
    background-repeat: no-repeat;
    margin-left: -40px;
    padding: 0 0 0 25px;
+}
+
+.degree-type, .job-type, .authors, .conference {
+   display: block;
+   padding: 5px 0 0 0;
 }
 
 #work ul li {
@@ -89,6 +98,7 @@ span.employ-date, span.grad-date {
    background-color: #f0f0f0;
    border: 1px solid #d0d0d0;
    padding: 10px;
+   margin: 8px 0 18px 0;
 }
 
 #education ul li {
@@ -100,6 +110,7 @@ span.employ-date, span.grad-date {
 #publications ul li {
    background-image: url('images/pubicon.png');
    padding-left: 30px;
+   margin-bottom: 18px;
 }
 
 a.abstract {
@@ -115,10 +126,6 @@ div.abstract {
 div.abstract p {
    margin: 0 0 10px 0;
 }
-
-/*#contact {
-   margin-bottom: 90px;
-}*/
 
 #contact ul li {
    padding-left: 35px;
