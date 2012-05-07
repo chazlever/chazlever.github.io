@@ -89,6 +89,10 @@ ul li {
    background-image: url('images/workicon.png');
 }
 
+#work ul li strong {
+   float: left;
+}
+
 span.employ-date, span.grad-date {
    float: right;
    color: #606060;
@@ -105,6 +109,10 @@ span.employ-date, span.grad-date {
    background-image: url('images/eduicon.png');
    padding-left: 38px;
    margin-bottom: 15px;
+}
+
+#education ul li em {
+   float: left;
 }
 
 #publications ul li {
