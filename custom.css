@@ -98,6 +98,7 @@ span.employ-date, span.grad-date {
 }
 
 .job-description, div.abstract {
+   color: #606060;
    background-color: #f0f0f0;
    border: 1px solid #d0d0d0;
    padding: 10px;
