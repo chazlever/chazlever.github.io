@@ -3,6 +3,7 @@ html, body {
    font-family: "Droid Serif", serif;
    background: url(images/bg-lighter.jpg) fixed;
    color: #303030;
+   margin: 0;
 }
 
 strong {
@@ -24,7 +25,7 @@ a:hover {
 }
 
 h1 {
-   margin: 0.5em;
+   height: 70px;
    font-size: 32pt;
    text-align: center;
    text-shadow: 1px 2px 2px #c0c0c0;
@@ -65,9 +66,9 @@ ul li {
    display: none;
 }
 
-.container {
+.container, h1 {
    width: 765px;
-   margin: 0 auto;
+   margin: 15px auto;
 }
 
 .category-box {
@@ -75,7 +76,7 @@ ul li {
    background-color: #ffffff;
    border: 1px solid #e0e0e0;
    padding: 0 1.5em;
-   margin: 2.5em auto;
+   margin: 0 auto 2.5em auto;
    -moz-box-shadow: 2px 2px 10px #c0c0c0;
    -webkit-box-shadow: 2px 2px 10px #c0c0c0;
    box-shadow: 2px 2px 10px #c0c0c0;
@@ -86,7 +87,7 @@ ul li {
 }
 
 .category-box ul {
-   margin-left: 2.2em;
+   margin-left: 2.68em;
 }
 
 .degree-type, .job-type, .authors, .conference {
@@ -170,16 +171,22 @@ div.abstract p {
 /* SOCIAL MEDIA SPECIFIC
  *******************************************************************************/
 
+#social {
+   position: absolute;
+   width: 765px;
+   height: 24px;
+   top: 72px;
+   left: 50%;
+   margin-left: -382.5px;
+   width: 100%;
+}
+
 #social h2 {
    display: none;
 }
 
 #social ul {
-   position: absolute;
-   top: 5.5em;
-   left: 50%;
-   margin-left: 270px;
-   width: 105px;
+   margin-left: 655px;
 }
 
 #social ul li a {
