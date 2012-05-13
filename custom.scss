@@ -130,6 +130,7 @@ ul {
 
 #work {
    clear: both;
+
    ul li {
       background-image: url('images/workicon.png');
       strong {
@@ -160,7 +161,7 @@ p.job-description {
 
 #education {
    float: right;
-   width: 375px;
+   width: 385px;
 
    ul li {
       background-image: url('images/eduicon.png');
@@ -218,22 +219,22 @@ div.abstract p {
    top: 70px;
    left: 50%;
    margin-left: -382.5px;
-}
 
-#social h2 {
-   display: none;
-}
+   h2 {
+      display: none;
+   }
 
-#social ul {
-   margin-left: 620px;
-}
-
-#social ul li a {
-   display: block;
-   float: left;
-   height: 24px;
-   width: 24px;
-   text-indent: -9999px;
+   ul {
+      margin-left: 620px;
+      
+      li a {
+         display: block;
+         float: left;
+         height: 24px;
+         width: 24px;
+         text-indent: -9999px;
+      }
+   }
 }
 
 #facebook {
