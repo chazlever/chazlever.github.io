@@ -10,17 +10,22 @@
       <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:700|Droid+Serif:400,400italic' rel='stylesheet' type='text/css' />
       <link href="custom.css" rel="stylesheet" type="text/css" media="screen, projection" />
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-      <script type="text/javascript" src="custom.js"></script>
       <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-166197-7']);
-        _gaq.push(['_trackPageview']);
-      
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+      <!--
+         $(document).ready(function() {
+            // Hide abstract elements by default
+            var abstract = 'div.abstract';
+            $(abstract).hide();
+            $('<br /><a class="abstract" href="#" title="View/Hide Abstract">[abstract]</a>')
+               .insertBefore(abstract);
+         
+            // Handle the hiding/viewing of abstract
+            $('a.abstract').click(function() {
+               $(this).next().slideToggle();
+               return false;
+            });
+         });
+      -->
       </script>
    </head>
    <body>
@@ -149,6 +154,18 @@
    <div id="footer" class="container">
       <em>Copyright &copy; 2012. All rights reserved.</em>
    </div>
+
+   <script type="text/javascript">
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-166197-7']);
+     _gaq.push(['_trackPageview']);
+   
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+   </script>
 
    </body>
 </html>
