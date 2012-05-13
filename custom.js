@@ -13,13 +13,8 @@ $(document).ready(function() {
 
    // Handle the hiding/viewing of abstract
    $('a.abstract').click(function() {
-      abstract = $(this).next();
-      if ($(abstract).is(":visible")) {
-         $(abstract).hide();
-      }
-      else {
-         $(abstract).show();
-      }
+      $(this).next().slideToggle();
       return false;
    });
 });
+
