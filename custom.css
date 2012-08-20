@@ -1,188 +1,80 @@
-/******************************************************************************
- * Author: Chaz Lever
- * Date: 05/12/2012
- ******************************************************************************/
-html, body {
-  color: #303030;
-  font-size: 15px;
-  font-family: "Droid Serif", serif;
-  background: url(images/bg-lighter.jpg) fixed;
-  margin: 0;
-  padding: 0; }
+/****************************************************************************** Author: Chaz Lever Date: 05/12/2012 *****************************************************************************/
+html, body { color: #303030; font-size: 15px; font-family: "Droid Serif", serif; background: url(images/bg-lighter.jpg) fixed; margin: 0; padding: 0; }
 
-strong {
-  font-style: italic; }
+strong { font-style: italic; }
 
-em {
-  color: #606060; }
+em { color: #606060; }
 
-a {
-  color: #a81616;
-  text-decoration: none; }
-  a:hover {
-    color: #cc1b1b;
-    text-decoration: underline; }
+a { color: #a81616; text-decoration: none; }
+a:hover { color: #cc1b1b; text-decoration: underline; }
 
-h1 {
-  font-family: "Cabin Sketch", cursive;
-  font-size: 60px;
-  height: 70px;
-  text-align: center;
-  text-shadow: 3px 3px 3px silver;
-  -moz-text-shadow: 3px 3px 3px silver;
-  -webkit-text-shadow: 3px 3px 3px silver;
-  -khtml-text-shadow: 3px 3px 3px silver;
-  width: 780px !important;
-  margin: 15px auto !important; }
-  h1 a:hover {
-    text-decoration: none; }
+h1 { font-family: "Cabin Sketch", cursive; font-size: 60px; height: 70px; text-align: center; text-shadow: 3px 3px 3px silver; -moz-text-shadow: 3px 3px 3px silver; -webkit-text-shadow: 3px 3px 3px silver; -khtml-text-shadow: 3px 3px 3px silver; width: 780px !important; margin: 15px auto !important; }
+h1 a:hover { text-decoration: none; }
 
-h2 {
-  font-size: 20px;
-  margin: -0.9em 0 0 -1.5em;
-  padding: 0.5em;
-  display: inline-block;
-  vertical-align: middle;
-  font-family: 'Gloria Hallelujah', cursive;
-  font-weight: bold;
-  color: #f0f0f0;
-  background-color: #a81616;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -khtml-border-radius: 5px; }
+h2 { font-size: 20px; margin: -0.9em 0 0 -1.5em; padding: 0.5em; display: inline-block; vertical-align: middle; font-family: 'Gloria Hallelujah', cursive; color: #f0f0f0; background-color: #a81616; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; }
 
-ul {
-  list-style-type: none; }
-  ul li {
-    background-repeat: no-repeat;
-    padding-left: 25px; }
+ul { list-style-type: none; }
+ul li { background-repeat: no-repeat; padding-left: 25px; }
 
-.hide {
-  display: none; }
+.hide { display: none; }
 
-.container {
-  width: 780px;
-  margin: 15px auto; }
+.container { width: 780px; margin: 15px auto; }
 
-.category-box {
-  line-height: 1.4em;
-  background-color: white;
-  border: 1px solid #e0e0e0;
-  padding: 0 20px 5px 20px;
-  margin: 0 auto 2.5em auto;
-  box-shadow: 2px 2px 10px silver;
-  -moz-box-shadow: 2px 2px 10px silver;
-  -webkit-box-shadow: 2px 2px 10px silver;
-  -khtml-box-shadow: 2px 2px 10px silver; }
-  .category-box p, .category-box ul {
-    margin: 10px 0; }
+.category-box { line-height: 1.4em; background-color: white; border: 1px solid #e0e0e0; padding: 0 20px 5px 20px; margin: 0 auto 2.5em auto; box-shadow: 2px 2px 10px silver; -moz-box-shadow: 2px 2px 10px silver; -webkit-box-shadow: 2px 2px 10px silver; -khtml-box-shadow: 2px 2px 10px silver; }
+.category-box p, .category-box ul { margin: 10px 0; }
 
-.degree-type, .job-type, .authors, .conference {
-  padding: 0.4em 0; }
+.degree-type, .job-type, .authors, .conference { padding: 0.4em 0; }
 
 /*******************************************************************************
-/* WORK SPECIFIC
- *******************************************************************************/
-#work {
-  clear: both; }
-  #work ul li {
-    background-image: url("images/workicon.png"); }
-    #work ul li strong {
-      float: left; }
+/* WORK SPECIFIC ******************************************************************************/
+#work { clear: both; }
+#work ul li { background-image: url("images/workicon.png"); }
+#work ul li strong { float: left; }
 
-span.employ-date, span.grad-date {
-  float: right;
-  color: #606060; }
+span.employ-date, span.grad-date { float: right; color: #606060; }
 
-p.job-description, div.abstract {
-  color: #606060;
-  background-color: #f0f0f0;
-  border: 1px solid #d0d0d0;
-  margin: 0.4em 0 1em 0; }
+p.job-description, div.abstract { color: #606060; background-color: #f0f0f0; border: 1px solid #d0d0d0; margin: 0.4em 0 1em 0; }
 
-p.job-description {
-  padding: 0.5em 1em; }
+p.job-description { padding: 0.5em 1em; }
 
 /*******************************************************************************
-/* EDUCATION SPECIFIC
- *******************************************************************************/
-#education {
-  float: right;
-  width: 385px; }
-  #education ul li {
-    background-image: url("images/eduicon.png");
-    padding-left: 38px;
-    margin-bottom: 10px; }
-  #education strong {
-    float: left; }
+/* EDUCATION SPECIFIC ******************************************************************************/
+#education { float: right; width: 385px; }
+#education ul li { background-image: url("images/eduicon.png"); padding-left: 38px; margin-bottom: 10px; }
+#education strong { float: left; }
 
 /*******************************************************************************
-/* PUBLICATION SPECIFIC
- *******************************************************************************/
-#publications ul li {
-  background-image: url("images/pubicon.png");
-  padding-left: 30px; }
+/* PUBLICATION SPECIFIC ******************************************************************************/
+#publications ul li { background-image: url("images/pubicon.png"); padding-left: 30px; }
 
-div.abstract p {
-  margin: 1em; }
+div.abstract p { margin: 1em; }
 
 /*******************************************************************************
-/* CONTACT SPECIFIC
- *******************************************************************************/
-#contact {
-  float: left;
-  width: 280px; }
-  #contact li {
-    padding-left: 38px; }
+/* CONTACT SPECIFIC ******************************************************************************/
+#contact { float: left; width: 280px; }
+#contact li { padding-left: 38px; }
 
-#campusmail {
-  background-image: url("images/campusicon.png"); }
+#campusmail { background-image: url("images/campusicon.png"); }
 
-#email {
-  background-image: url("images/emailicon.png");
-  margin: 12px 0 18px 0; }
+#email { background-image: url("images/emailicon.png"); margin: 12px 0 18px 0; }
 
 /*******************************************************************************
-/* SOCIAL MEDIA SPECIFIC
- *******************************************************************************/
-#social {
-  position: absolute;
-  width: 780px;
-  top: 70px;
-  left: 50%;
-  margin-left: -382.5px; }
-  #social h2 {
-    display: none; }
-  #social ul {
-    margin-left: 620px; }
-    #social ul li a {
-      display: block;
-      float: left;
-      height: 24px;
-      width: 24px;
-      text-indent: -9999px; }
+/* SOCIAL MEDIA SPECIFIC ******************************************************************************/
+#social { position: absolute; width: 780px; top: 70px; left: 50%; margin-left: -382.5px; }
+#social h2 { display: none; }
+#social ul { margin-left: 620px; }
+#social ul li a { display: block; float: left; height: 24px; width: 24px; text-indent: -9999px; }
 
-#facebook {
-  background: url("images/facebook.png") no-repeat -4px -4px; }
+#facebook { background: url("images/facebook.png") no-repeat -4px -4px; }
 
-#twitter {
-  background: url("images/twitter.png") no-repeat -4px -4px; }
+#twitter { background: url("images/twitter.png") no-repeat -4px -4px; }
 
-#googleplus {
-  background: url("images/gplus.png") no-repeat -4px -4px; }
+#googleplus { background: url("images/gplus.png") no-repeat -4px -4px; }
 
-#linkedin {
-  background: url("images/linkedin.png") no-repeat -4px -4px; }
+#linkedin { background: url("images/linkedin.png") no-repeat -4px -4px; }
 
-#github {
-  background: url("images/github.png") no-repeat -4px -4px; }
+#github { background: url("images/github.png") no-repeat -4px -4px; }
 
 /*******************************************************************************
-/* FOOTER
- *******************************************************************************/
-#footer {
-  font-size: 14px;
-  color: #808080;
-  text-align: center;
-  margin: 2em auto; }
+/* FOOTER ******************************************************************************/
+#footer { font-size: 14px; color: #808080; text-align: center; margin: 2em auto; }
