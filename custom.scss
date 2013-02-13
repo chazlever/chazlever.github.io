@@ -226,35 +226,23 @@ div.abstract p {
 
    ul {
       margin-left: 620px;
-      
-      li a {
-         display: block;
+
+      a {
+         color: #707070;
+         text-decoration: none;
+         text-shadow: 1px 1px 1px silver;
          float: left;
-         height: 24px;
-         width: 24px;
-         text-indent: -9999px;
+         margin-right: 1px;
+      }
+
+      a:hover {
+         color: #202020;
+      }
+
+      span {
+         display: none;
       }
    }
-}
-
-#facebook {
-   background: url('images/facebook.png') no-repeat -4px -4px;
-}
-
-#twitter {
-   background: url('images/twitter.png') no-repeat -4px -4px;
-}
-
-#googleplus {
-   background: url('images/gplus.png') no-repeat -4px -4px;
-}
-
-#linkedin {
-   background: url('images/linkedin.png') no-repeat -4px -4px;
-}
-
-#github {
-   background: url('images/github.png') no-repeat -4px -4px;
 }
 
 /*******************************************************************************
