@@ -62,13 +62,13 @@ a {
 }
 
 h1 {
-   font-family: "Cabin Sketch", cursive;
+   font-family: 'Gloria Hallelujah', cursive;
    font-size: 60px;
-   height: 70px;
+   height: 90px;
    text-align: center;
    @include textshadow(3px, 3px, 3px, $grey-shadow);
    width: $container-width !important;
-   margin: 15px auto !important; 
+   margin: auto !important; 
 
    a:hover {
       text-decoration: none;
@@ -216,7 +216,7 @@ div.abstract p {
 #social {
    position: absolute;
    width: $container-width;
-   top: 70px;
+   top: 80px;
    left: 50%;
    margin-left: -382.5px;
 
