@@ -62,7 +62,7 @@ a {
 }
 
 h1 {
-   font-family: 'Gloria Hallelujah', cursive;
+   font-family: "Gloria Hallelujah", cursive;
    font-size: 60px;
    height: 90px;
    text-align: center;
@@ -81,7 +81,7 @@ h2 {
    padding: 0.5em;
    display: inline-block;
    vertical-align: middle;
-   font-family: 'Gloria Hallelujah', cursive;
+   font-family: "Gloria Hallelujah", cursive;
    color: $grey-light;
    background-color: $red-dark;
    @include borderradius(5px);
@@ -216,7 +216,7 @@ div.abstract p {
 #social {
    position: absolute;
    width: $container-width;
-   top: 80px;
+   top: 75px;
    left: 50%;
    margin-left: -382.5px;
 
