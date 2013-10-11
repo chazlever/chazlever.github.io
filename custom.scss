@@ -123,6 +123,45 @@ ul {
    padding: 0.4em 0;
 }
 
+span.media-date, span.employ-date, span.grad-date {
+   float: right;
+   color: $grey-medium;
+}
+
+p.media-description, p.job-description, div.abstract {
+   color: $grey-medium;
+   background-color: $grey-light;
+   border: 1px solid #d0d0d0;
+   margin: 0.4em 0 1em 0;
+}
+
+p.media-description, p.job-description {
+   padding: 0.5em 1em;
+}
+
+/*******************************************************************************
+/* MEDIA SPECIFIC
+ *******************************************************************************/
+
+#media-coverage {
+   clear: both;
+
+   strong {
+      margin-left: 0.5em;
+   }
+
+   p.media-description {
+      margin-left: 0.5em;
+   }
+
+   ul li {
+      background-image: url('images/mediaicon.png');
+      strong {
+         float: left;
+      }
+   }
+}
+
 /*******************************************************************************
 /* WORK SPECIFIC
  *******************************************************************************/
@@ -136,22 +175,6 @@ ul {
          float: left;
       }
    }
-}
-
-span.employ-date, span.grad-date {
-   float: right;
-   color: $grey-medium;
-}
-
-p.job-description, div.abstract {
-   color: $grey-medium;
-   background-color: $grey-light;
-   border: 1px solid #d0d0d0;
-   margin: 0.4em 0 1em 0;
-}
-
-p.job-description {
-   padding: 0.5em 1em;
 }
 
 /*******************************************************************************
