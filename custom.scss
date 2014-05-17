@@ -140,7 +140,7 @@ p.media-description, p.job-description {
 }
 
 /*******************************************************************************
-/* MEDIA SPECIFIC
+ * MEDIA SPECIFIC
  *******************************************************************************/
 
 #media-coverage {
@@ -151,34 +151,36 @@ p.media-description, p.job-description {
    }
 
    p.media-description {
-      margin-left: 0.5em;
+      margin-left: 2em;
    }
 
    ul li {
-      background-image: url('images/mediaicon.png');
-      strong {
-         float: left;
-      }
+      padding-left: 0;
    }
 }
 
 /*******************************************************************************
-/* WORK SPECIFIC
+ * WORK SPECIFIC
  *******************************************************************************/
 
 #work {
    clear: both;
+  
+   strong {
+      margin-left: 0.5em;
+   }
+
+   p.job-description, em {
+      margin-left: 2em;
+   }
 
    ul li {
-      background-image: url('images/workicon.png');
-      strong {
-         float: left;
-      }
+      padding-left: 0;
    }
 }
 
 /*******************************************************************************
-/* EDUCATION SPECIFIC
+ * EDUCATION SPECIFIC
  *******************************************************************************/
 
 #education {
@@ -186,24 +188,34 @@ p.media-description, p.job-description {
    width: 385px;
 
    ul li {
-      background-image: url('images/eduicon.png');
-      padding-left: 38px;
+      padding-left: 0;
       margin-bottom: 10px;
    }
 
-   strong {
-      float: left;
+   em {
+      padding-left: 30px;
    }
 }
 
 /*******************************************************************************
-/* PUBLICATION SPECIFIC
+ * PUBLICATION SPECIFIC
  *******************************************************************************/
 
 #publications ul li {
-   background-image: url('images/pubicon.png');
-   padding-left: 30px;
+   strong {
+      margin-left: 0.5em;
+   }
+
+   em, span {
+      margin-left: 2em;
+   }
+
+   padding-left: 0;
    margin-bottom: 0.75em;
+}
+
+div.abstract, a.abstract {
+   margin-left: 2em;
 }
 
 div.abstract p {
@@ -211,7 +223,7 @@ div.abstract p {
 }
 
 /*******************************************************************************
-/* CONTACT SPECIFIC
+ * CONTACT SPECIFIC
  *******************************************************************************/
 
 #contact {
@@ -219,21 +231,22 @@ div.abstract p {
    width: 280px;
 
    li {
-      padding-left: 38px;
+      padding-left: 0px;
    }
 }
 
 #campusmail {
-   background-image: url('images/campusicon.png');
+   div {
+      padding-left: 30px;
+   }
 }
 
 #email {
-   background-image: url('images/emailicon.png');
    margin: 12px 0 18px 0;
 }
 
 /*******************************************************************************
-/* SOCIAL MEDIA SPECIFIC
+ * SOCIAL MEDIA SPECIFIC
  *******************************************************************************/
 
 #social {
@@ -255,7 +268,7 @@ div.abstract p {
          text-decoration: none;
          text-shadow: 1px 1px 1px silver;
          float: left;
-         margin-right: 1px;
+         margin-right: 8px;
       }
 
       a:hover {
@@ -269,7 +282,7 @@ div.abstract p {
 }
 
 /*******************************************************************************
-/* FOOTER
+ * FOOTER
  *******************************************************************************/
 
 #footer {
