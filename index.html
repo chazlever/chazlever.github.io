@@ -14,6 +14,9 @@
       <script type="text/javascript">
       <!--
          $(document).ready(function() {
+            // Dynamicaly update the copyright at the bottom
+            $('#copyright-year').html(new Date().getFullYear());
+
             // Hide abstract elements by default
             var abstract = 'div.abstract';
             $(abstract).hide();
@@ -339,7 +342,7 @@
       </div>
       
       <div id="footer" class="container">
-         <em>Copyright &copy; 2013-2014. All rights reserved.</em>
+         <em>Copyright &copy; 2013-<span id="copyright-year">Present</span>. All rights reserved.</em>
       </div>
 
       <script type="text/javascript">
